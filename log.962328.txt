@@ -1,0 +1,10 @@
+server: waiting for connections...
+server: got connection from 127.0.0.1
+Command is USER john.doe@example.com
+Executing user
+Command is PASS password123x
+Executing pass
+Command is LIST
+Executing list
+Command is QUIT
+Executing quit
