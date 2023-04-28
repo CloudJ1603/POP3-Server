@@ -53,12 +53,19 @@ where n is the number of messages that have been restored (or un-deleted) as a r
 The provided code already provides functionality for several features you are expected to perform. You are strongly encouraged to read the comments for the provided functions before starting the implementation, as part of what you are expected to implement can be vastly simplified by using the provided code. In particular, note functions like:
 
 **send_formatted**
+
 sends a string to the socket and allows you to use printf-like format directives to include extra parameters in your call
+
 **nb_read_line**
+
 reads from the socket and buffers the received data, while returning a single line at a time (similar to fgets)
+
 **dlog**
+
 print a log message to the standard error stream, using printf-like formatting directives. You can turn on and off logging by assigning the variable be_verbose
+
 **split**
+
 split a line into parts that are separated by white space
 You may assume that the functionality of these functions will be available and unmodified in the grading environment.
 
